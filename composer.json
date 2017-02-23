@@ -1,5 +1,5 @@
 {
-    "name": "dynamiccarrts/laravel-ip2location",
+    "name": "dynamiccarrots/laravel-ip2location",
     "description": "Use the free Ip2Location LITE database within Laravel",
     "type": "library",
     "require": {

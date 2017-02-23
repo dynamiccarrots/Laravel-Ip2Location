@@ -12,7 +12,7 @@ As this package uses the LITE/free version of Ip2Location you are not guaranteed
 
 ### Download Ip2Location DB11.LITE
 
-Visit this page and download one of the DB files, these range from DB1 to DB11. http://lite.ip2location.com/
+Visit this page and download one of the DB files as a CSV, these range from DB1 to DB11. http://lite.ip2location.com/
 
 You will need to create a folder in the database directory called "ip2location" and store the CSV in here with the name "ip2location.csv".
 
@@ -72,7 +72,7 @@ Copy the following migration in to the newly created migration file.
 Run the migration.
 
 ```
-# php artisan migration
+# php artisan migrate
 ```
 
 ### Create update command 
@@ -138,7 +138,7 @@ class RefreshIp2Location extends Command
 
 ```
 
-Register the new command in /app/Console/Kernal.php by adding RefreshIp2Location::class to the $commands array, this will allow us to run this from the CLI.
+Register the new command in /app/Console/Kernel.php by adding RefreshIp2Location::class to the $commands array, this will allow us to run this from the CLI.
 ```php
     protected $commands = [
         RefreshIp2Location::class
