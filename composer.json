@@ -2,7 +2,6 @@
     "name": "dynamiccarrts/laravel-ip2location",
     "description": "Use the free Ip2Location LITE database within Laravel",
     "type": "library",
-    "minimum-stability": "stable",
     "require": {
         "php": ">=5.3.0"
     },
