@@ -10,7 +10,7 @@ As this package uses the LITE/free version of Ip2Location you are not guaranteed
 
 #Installation
 
-### Download Ip2Location DB11.LITE
+### Download Ip2Location Database
 
 Visit this page and download one of the DB files as a CSV, these range from DB1 to DB11. http://lite.ip2location.com/
 
